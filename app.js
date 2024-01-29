@@ -8,9 +8,8 @@ window.onload = () => {
     const lastDay = new Date(new Date().getFullYear(), currentMonth + 1, 0).getDate();
 
     const months = ["January", "February", "March", "April", "May", "June", "July",
-                     "August", "September", "October", "November", "December"];
+                    "August", "September", "October", "November", "December"];
 
-    
     month.innerText = months[currentMonth];
     date.innerText = new Date().toDateString();
 
